@@ -1,5 +1,7 @@
+
 var Lecture = Backbone.Model.extend({
     initialize: function() {
+        console.log('Lecture Init');
     },
     defaults: {
         complete:false
@@ -8,6 +10,7 @@ var Lecture = Backbone.Model.extend({
 
 var Section = Backbone.Model.extend({
     initialize: function() {
+        console.log('Section Init');
     },
     defaults: {
         complete:false
@@ -16,6 +19,7 @@ var Section = Backbone.Model.extend({
 
 var Content = Backbone.Model.extend({
     initialize: function() {
+        console.log('Content Init');
     },
     defaults: {
         complete:false

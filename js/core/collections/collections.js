@@ -13,5 +13,8 @@ var Sections = Backbone.Collection.extend({
 var Contents = Backbone.Collection.extend({
     model: Content,
     initialize: function() {
+    },
+    section: function(section){
+        _.filter(this.models, function(model){ return model.get('section') == section })
     }
 });
