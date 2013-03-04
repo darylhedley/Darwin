@@ -1,30 +1,33 @@
 {
-"lectures":[
-    {
-        "course":"03",
-        "title":"Article title",
-        "description":"A description in here please"
-    }],
-"sections":[
-    {
-        "lecture":"03",
-        "title":"Section title",
-        "description":"A description of the section"
-    },
-    {
-        "lecture":"03",
-        "title":"Section title",
-        "description":"A description of the section"
-    }],
-"content":[
-    {
-        "section":"03",
-        "title":"Section title",
-        "description":"A description of the section"
-    },
-    {
-        "section":"06",
-        "title":"Section title",
-        "description":"A description of the section"
-    }],
+    "lectures":[
+        {
+            "course":"03",
+            "title":"Article title",
+            "description":"A description in here please"
+        }
+    ],
+    "sections":[
+        {
+            "lecture":"03",
+            "title":"Section title",
+            "description":"A description of the section"
+        },
+        {
+            "lecture":"03",
+            "title":"Section title",
+            "description":"A description of the section"
+        }
+    ],
+    "content":[
+        {
+            "section":"03",
+            "title":"Section title",
+            "description":"A description of the section"
+        },
+        {
+            "section":"06",
+            "title":"Section title",
+            "description":"A description of the section"
+        }
+    ],
 }
