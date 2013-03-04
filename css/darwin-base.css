@@ -103,13 +103,25 @@ a:link {-webkit-tap-highlight-color: #fcd700;}
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
 
+
+a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.icon.list {
+    margin:7px auto 0px;
+}
+
 /*/////////////////////////////////
     CONTAINER STYLES #ef4057;
 /////////////////////////////////*/
 
 .container {
+    position:relative;
     width:100%;
     height:100%;
+    overflow:hidden;
     background-color:#f2f2f2;
 }
 
@@ -123,4 +135,16 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
     background-color: #ef4057;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 3px;
+}
+
+.section-tab {
+    display:block;
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color: #ef4057;
+    border-radius:50%;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -50px;
 }
