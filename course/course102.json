@@ -1,0 +1,10 @@
+{"courses": 
+    [{
+        "name":"Safety and Health",
+        "subject":"A course about safety and health"
+    },
+    {
+        "name":"Health and Safety",
+        "subject":"A course about health and safety"
+    }]
+}
